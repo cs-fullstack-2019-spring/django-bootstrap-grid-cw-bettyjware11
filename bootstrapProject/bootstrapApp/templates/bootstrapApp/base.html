@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrapApp/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrapApp/css/base.css' %}">
+    <script src="{% static 'bootstrapApp/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'bootstrapApp/js/bootstrap.js' %}"></script>
+</head>
+<body>
+
+<section>
+    {% block content %}
+    <h3>Nothing for block content</h3>
+    {% endblock content %}
+</section>
+
+
+</body>
+</html>

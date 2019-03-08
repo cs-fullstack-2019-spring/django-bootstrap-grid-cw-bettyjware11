@@ -1,0 +1,21 @@
+body{
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    margin: 20% 20%;
+    background: rgba(128, 0, 128, 0.14);
+    padding: 2.5%;
+}
+
+input{
+    margin-bottom: 12px;
+}
+
+
+.input{
+    border-radius: 5px;
+    width: 100%
+}
