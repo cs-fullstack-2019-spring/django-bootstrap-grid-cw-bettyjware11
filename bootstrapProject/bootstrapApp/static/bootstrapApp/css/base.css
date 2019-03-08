@@ -1,12 +1,13 @@
 body{
+
     background: white;
     height: 100%;
     width: 100%;
 }
 
 section{
-    margin: 20% 20%;
-    background: rgba(128, 0, 128, 0.14);
+    margin: 5%;
+    /*background-image: url("../images/air.jpeg");*/
     padding: 2.5%;
 }
 
@@ -18,4 +19,18 @@ input{
 .input{
     border-radius: 5px;
     width: 100%
+}
+
+
+/*set background image per page*/
+.index-bg {
+    background: url("../images/air.jpeg") no-repeat center center fixed;
+}
+
+.Page2-bg {
+    background: url("../images/fire-background-design_1189-229.jpg") no-repeat center center fixed;
+}
+
+.Page3-bg {
+    background: url("../images/155207142646637605.jpeg") no-repeat center center fixed;
 }

@@ -1,4 +1,4 @@
 body {
-    background-image: image();
-    background-color: #cccccc;
+    background-image: url("../images/air.jpeg");
+    background-color: lightgreen;
 }
